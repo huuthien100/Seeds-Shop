@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+.product-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.list-group {
+    margin-top: 55px;
+    margin-left: 5px;
+}
+
+.fa-lg {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+    padding: 10px;
+}
+
+.fa-lgg {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+body {
+    background-color: #ccffe6;
+}
+
+.menuDinh {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.menuDinh1 {
+    position: sticky;
+    top: 0;
+    z-index: 900000;
+}
+
+.custom-footer {
+    background-color: #14bd71;
+    color: #090909;
+    padding: 20px 0;
+}
+
+label.error {
+    color: red !important;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ff9900;
+}
+
+.a {
+    color: #000;
+    font-weight: bold;
+
+}
+
+h3 {
+    color: #ebf1e7;
+    border-bottom: solid #9aeb9c;
+    padding-bottom: 5px;
+    width: 60%;
+}
+
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(45, 253, 49, 1) 100%);
+}
+
+.btn:hover {
+    background-color: #ff9900;
+    color: #0d8808;
+    border: 2px solid #ff9900;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: inherit;
+}
+
+.gotop {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    z-index: 100;
+}
